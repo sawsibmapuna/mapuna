@@ -1,0 +1,137 @@
+*
+{
+	box-sizing: border-box;
+}
+
+.menu
+{
+	text-align: center;
+}
+
+.row
+{
+	width: 100%;
+}
+
+@media (min-width: 992px)
+{
+	.chicken-lg, .beef-lg, .sushi-lg
+	{
+		width: 33.33%;
+		float: left;
+		margin-bottom: 20px;
+		font-family: Helvetica, "Courier New", Courier, monospace;
+		position: relative;
+	}
+
+	.dishdescription-lg, .dishname-lg
+	{
+		margin: 0px 10px 0px 10px;
+	}
+
+	.dishdescription-lg
+	{
+		background-color: #700416;
+		color: white;
+		padding: 5px;
+		padding-top: 30px;
+		border: 1px solid black;
+	}
+
+	.dishname-lg
+	{
+		text-align: center;
+		background-color: white;
+		color: green;
+		padding: 5px;
+		border: 1px solid black;
+		position: absolute;
+		right: 0px;
+		width: 100px;
+	}
+}
+
+@media (min-width: 768px) and (max-width: 991px)
+{
+	.chicken-md, .beef-md, .sushi-md
+	{
+		font-family: Helvetica, "Courier New", Courier, monospace;
+		position: relative;
+	}
+	.chicken-md, .beef-md
+	{
+		width: 50%;
+		float: left;
+		margin-bottom: 20px;
+	}
+	.sushi-md
+	{
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+	}
+
+	.dishdescription-md, .dishname-md
+	{
+		margin: 0px 30px 0px 30px;
+	}
+
+	.dishdescription-md
+	{
+		background-color: #700416;
+		color: white;
+		padding: 5px;
+		padding-top: 30px;
+		border: 1px solid black;
+	}
+
+	.dishname-md
+	{
+		text-align: center;
+		background-color: white;
+		color: green;
+		padding: 5px;
+		border: 1px solid black;
+		position: absolute;
+		right: 0px;
+		width: 100px;
+	}
+}
+
+@media (max-width: 767px)
+{
+	.chicken-sm, .beef-sm, .sushi-sm
+	{
+		width: 100%;
+		float: left;
+		margin-bottom: 20px;
+		font-family: Helvetica, "Courier New", Courier, monospace;
+		position: relative;
+	}
+
+	.dishdescription-sm, .dishname-sm
+	{
+		margin: 0px 50px 0px 50px;
+	}
+
+	.dishdescription-sm
+	{
+		background-color: #700416;
+		color: white;
+		padding: 5px;
+		padding-top: 30px;
+		border: 1px solid black;
+	}
+
+	.dishname-sm
+	{
+		text-align: center;
+		background-color: white;
+		color: green;
+		padding: 5px;
+		border: 1px solid black;
+		position: absolute;
+		right: 0px;
+		width: 100px;
+	}
+}
